@@ -1,0 +1,132 @@
+2018-11-24 13:18:57 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-24 13:18:57 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-24 13:20:15 INFO  PageTinkoffMobile:32 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/
+2018-11-24 13:21:26 INFO  PageTinkoffMobile:38 - Скролл к элементу: форма
+2018-11-24 13:21:35 INFO  PageTinkoffMobile:45 - Нажатие кнопки: Далее
+2018-11-24 13:21:41 INFO  PageTinkoffMobile:51 - Получение текста ошибки поля: ФИО
+2018-11-24 13:21:43 INFO  PageTinkoffMobile:54 - Текст ошибки поля: ФИО: Укажите ваше ФИО
+2018-11-24 13:21:43 INFO  PageTinkoffMobile:59 - Получение текста ошибки поля: Контактный номер
+2018-11-24 13:21:43 INFO  PageTinkoffMobile:62 - Текст ошибки поля: Контактный номер: Необходимо указать номер телефона
+2018-11-24 13:21:43 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-24 13:21:46 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-24 13:21:46 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-24 13:22:03 INFO  PageTinkoffMobile:32 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/
+2018-11-24 13:23:04 INFO  PageTinkoffMobile:67 - Поиск селекта: Гражданство
+2018-11-24 13:23:04 INFO  PageTinkoffMobile:69 - Нажатие на селект: Гражданство
+2018-11-24 13:23:15 INFO  PageTinkoffMobile:72 - Поиск элементов коллекции выпадающего списка: Гражданство
+2018-11-24 13:23:22 INFO  PageTinkoffMobile:77 - Найдено: 2 элемента
+2018-11-24 13:23:24 INFO  PageTinkoffMobile:81 - Поиск элемента коллекции: 'Не имею гражданства РФ', текущий элемент: 'Имею гражданство РФ'
+2018-11-24 13:23:24 INFO  PageTinkoffMobile:81 - Поиск элемента коллекции: 'Не имею гражданства РФ', текущий элемент: 'Не имею гражданства РФ'
+2018-11-24 13:23:24 INFO  PageTinkoffMobile:83 - Нажатие на элемент коллекции: 'Не имею гражданства РФ'
+2018-11-24 13:23:27 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-24 13:40:38 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-24 13:40:38 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-24 13:41:23 INFO  PageTinkoffMobile:32 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/
+2018-11-25 22:53:12 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 22:53:12 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 22:53:34 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-25 22:54:53 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 22:54:53 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 22:55:04 INFO  PageTinkoffMobile:36 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/tariffs/
+2018-11-25 22:55:12 INFO  PageTinkoffMobile:41 - Устанавливаем дефолтны регион Москва и область
+2018-11-25 22:55:15 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-25 22:57:53 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 22:57:53 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 22:58:01 INFO  PageTinkoffMobile:36 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/tariffs/
+2018-11-25 22:58:14 INFO  PageTinkoffMobile:43 - Устанавливаем дефолтны регион Москва и область
+2018-11-25 22:58:21 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-25 22:58:49 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 22:58:49 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 22:58:57 INFO  PageTinkoffMobile:36 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/tariffs/
+2018-11-25 22:59:05 INFO  PageTinkoffMobile:43 - Устанавливаем дефолтны регион Москва и область
+2018-11-25 22:59:06 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-25 23:03:56 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 23:03:56 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 23:04:03 INFO  PageTinkoffMobile:36 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/tariffs/
+2018-11-25 23:04:30 INFO  PageTinkoffMobile:43 - Устанавливаем дефолтны регион Москва и область
+2018-11-25 23:04:31 INFO  PageTinkoffMobile:49 - Определение региона
+2018-11-25 23:04:34 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-25 23:11:29 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 23:11:29 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 23:11:37 INFO  PageTinkoffMobile:36 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/tariffs/
+2018-11-25 23:12:06 INFO  PageTinkoffMobile:43 - Устанавливаем дефолтны регион Москва и область
+2018-11-25 23:12:06 INFO  PageTinkoffMobile:49 - Определение региона
+2018-11-25 23:12:06 INFO  PageTinkoffMobile:52 - Текущий регион Москва и Московская область
+2018-11-25 23:12:06 INFO  PageTinkoffMobile:56 - Определение региона
+2018-11-25 23:12:06 INFO  PageTinkoffMobile:62 - Обновляем страницу
+2018-11-25 23:12:09 INFO  PageTinkoffMobile:56 - Определение региона
+2018-11-25 23:12:10 INFO  PageTinkoffMobile:67 - Поиск стоимости пакета
+2018-11-25 23:12:11 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-25 23:15:05 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 23:15:05 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 23:15:12 INFO  PageTinkoffMobile:36 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/tariffs/
+2018-11-25 23:15:42 INFO  PageTinkoffMobile:43 - Устанавливаем дефолтны регион Москва и область
+2018-11-25 23:15:42 INFO  PageTinkoffMobile:49 - Определение региона
+2018-11-25 23:15:42 INFO  PageTinkoffMobile:52 - Текущий регион Москва и Московская область
+2018-11-25 23:15:42 INFO  PageTinkoffMobile:56 - Определение региона
+2018-11-25 23:15:42 INFO  PageTinkoffMobile:59 - Текущий регионМосква и Московская область
+2018-11-25 23:15:42 INFO  PageTinkoffMobile:63 - Обновляем страницу
+2018-11-25 23:15:45 INFO  PageTinkoffMobile:56 - Определение региона
+2018-11-25 23:15:46 INFO  PageTinkoffMobile:59 - Текущий регионМосква и Московская область
+2018-11-25 23:15:46 INFO  PageTinkoffMobile:70 - Поиск стоимости пакета
+2018-11-25 23:15:47 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-25 23:17:38 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 23:17:38 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 23:17:46 INFO  PageTinkoffMobile:36 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/tariffs/
+2018-11-25 23:17:58 INFO  PageTinkoffMobile:43 - Устанавливаем дефолтны регион Москва и область
+2018-11-25 23:18:01 INFO  PageTinkoffMobile:49 - Определение региона
+2018-11-25 23:18:02 INFO  PageTinkoffMobile:52 - Текущий регион Москва и Московская область
+2018-11-25 23:18:02 INFO  PageTinkoffMobile:56 - Определение региона
+2018-11-25 23:18:02 INFO  PageTinkoffMobile:59 - Текущий регионМосква и Московская область
+2018-11-25 23:18:02 INFO  PageTinkoffMobile:63 - Обновляем страницу
+2018-11-25 23:18:06 INFO  PageTinkoffMobile:56 - Определение региона
+2018-11-25 23:18:07 INFO  PageTinkoffMobile:59 - Текущий регионМосква и Московская область
+2018-11-25 23:18:07 INFO  PageTinkoffMobile:71 - Поиск стоимости пакета
+2018-11-25 23:18:07 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-25 23:18:44 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 23:18:44 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 23:18:51 INFO  PageTinkoffMobile:36 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/tariffs/
+2018-11-25 23:18:59 INFO  PageTinkoffMobile:43 - Устанавливаем дефолтны регион Москва и область
+2018-11-25 23:19:00 INFO  PageTinkoffMobile:49 - Определение региона
+2018-11-25 23:19:01 INFO  PageTinkoffMobile:52 - Текущий регион Москва и Московская область
+2018-11-25 23:19:01 INFO  PageTinkoffMobile:56 - Определение региона
+2018-11-25 23:19:01 INFO  PageTinkoffMobile:59 - Текущий регионМосква и Московская область
+2018-11-25 23:19:01 INFO  PageTinkoffMobile:63 - Обновляем страницу
+2018-11-25 23:19:01 INFO  PageTinkoffMobile:56 - Определение региона
+2018-11-25 23:19:06 INFO  PageTinkoffMobile:59 - Текущий регионМосква и Московская область
+2018-11-25 23:19:06 INFO  PageTinkoffMobile:71 - Поиск стоимости пакета
+2018-11-25 23:19:06 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-25 23:24:58 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 23:24:58 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 23:25:06 INFO  PageTinkoffMobile:39 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/tariffs/
+2018-11-25 23:25:14 INFO  PageTinkoffMobile:46 - Устанавливаем дефолтны регион Москва и область
+2018-11-25 23:25:14 INFO  PageTinkoffMobile:52 - Определение региона
+2018-11-25 23:25:17 INFO  PageTinkoffMobile:55 - Текущий регион Москва и Московская область
+2018-11-25 23:25:17 INFO  PageTinkoffMobile:59 - Определение региона
+2018-11-25 23:25:17 INFO  PageTinkoffMobile:62 - Текущий регионМосква и Московская область
+2018-11-25 23:25:17 INFO  PageTinkoffMobile:72 - Обновляем страницу
+2018-11-25 23:26:08 INFO  BaseRunner:38 - Закрытие браузера
+2018-11-25 23:30:50 INFO  BaseRunner:31 - Текущая ОС: windows 8
+2018-11-25 23:30:51 INFO  BaseRunner:18 - Инициализация веб драйвера
+2018-11-25 23:30:58 INFO  PageTinkoffMobile:39 - Открытие страницы: https://www.tinkoff.ru/mobile-operator/tariffs/
+2018-11-25 23:31:06 INFO  PageTinkoffMobile:46 - Устанавливаем дефолтны регион Москва и область
+2018-11-25 23:31:08 INFO  PageTinkoffMobile:52 - Определение региона
+2018-11-25 23:31:08 INFO  PageTinkoffMobile:55 - Текущий регион Москва и Московская область
+2018-11-25 23:31:08 INFO  PageTinkoffMobile:59 - Определение региона
+2018-11-25 23:31:09 INFO  PageTinkoffMobile:62 - Текущий регионМосква и Московская область
+2018-11-25 23:31:09 INFO  PageTinkoffMobile:67 - Обновляем страницу
+2018-11-25 23:31:17 INFO  PageTinkoffMobile:59 - Определение региона
+2018-11-25 23:31:17 INFO  PageTinkoffMobile:62 - Текущий регионМосква и Московская область
+2018-11-25 23:31:17 INFO  PageTinkoffMobile:73 - Поиск стоимости пакета
+2018-11-25 23:31:17 INFO  PageTinkoffMobile:80 - Поиск селекта: Интернет
+2018-11-25 23:31:17 INFO  PageTinkoffMobile:82 - Нажатие на селект: Интернет
+2018-11-25 23:31:18 INFO  PageTinkoffMobile:85 - Поиск элементов коллекции выпадающего списка: Интернет
+2018-11-25 23:31:19 INFO  PageTinkoffMobile:89 - Найдено: 6 элемента
+2018-11-25 23:31:19 INFO  PageTinkoffMobile:93 - Поиск элемента коллекции: 'Безлимитный интернет', текущий элемент: '0 ГБ'
+2018-11-25 23:31:19 INFO  PageTinkoffMobile:93 - Поиск элемента коллекции: 'Безлимитный интернет', текущий элемент: '2 ГБ'
+2018-11-25 23:31:19 INFO  PageTinkoffMobile:93 - Поиск элемента коллекции: 'Безлимитный интернет', текущий элемент: '4 ГБ'
+2018-11-25 23:31:20 INFO  PageTinkoffMobile:93 - Поиск элемента коллекции: 'Безлимитный интернет', текущий элемент: '8 ГБ'
+2018-11-25 23:31:20 INFO  PageTinkoffMobile:93 - Поиск элемента коллекции: 'Безлимитный интернет', текущий элемент: '16 ГБ'
+2018-11-25 23:31:20 INFO  PageTinkoffMobile:93 - Поиск элемента коллекции: 'Безлимитный интернет', текущий элемент: 'Безлимитный интернет'
+2018-11-25 23:31:20 INFO  PageTinkoffMobile:95 - Нажатие на элемент коллекции: 'Безлимитный интернет'
+2018-11-25 23:31:20 INFO  BaseRunner:38 - Закрытие браузера
