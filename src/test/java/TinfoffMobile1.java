@@ -108,7 +108,7 @@ public class TinfoffMobile1 extends TestCase {
         //Провряем, что стоимости по умолчанию для Москвы и Краснодара разные
         Assert.assertNotSame(priceMoscowActual,priceKrasnodarActual);
 
-        //Провряем, что стоимости по умолчанию для Москвы и Краснодара разные
+        //Провряем, что максимальные стоимости для Москвы и Краснодара разные
         Assert.assertEquals(MaxpriceKrasnodar,MaxpriceMoscow);
 
 
