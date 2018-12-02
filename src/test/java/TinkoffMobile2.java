@@ -9,8 +9,6 @@ public class TinkoffMobile2 extends BaseRunner{
     String MaxpriceKrasnodar;
     String priceKrasnodarActual;
 
-
-
     @Test
     public void allTests() throws InterruptedException {
         PageTinkoffMobileTariffs tinkoffMobile = new PageTinkoffMobileTariffs(webDriver);
@@ -21,6 +19,8 @@ public class TinkoffMobile2 extends BaseRunner{
                 .defaultRegion();
 
         Assert.assertEquals("Москва и Московская область", tinkoffMobile.getRegion());
+
+        tinkoffMobile.valueCheckBox("Мессенджеры");
 
         tinkoffMobile.refreshPage();
 

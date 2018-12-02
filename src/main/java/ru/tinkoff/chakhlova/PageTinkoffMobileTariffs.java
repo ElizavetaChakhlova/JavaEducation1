@@ -30,6 +30,8 @@ public class PageTinkoffMobileTariffs {
         wait.equals(selectInternet);
         return this;
     }
+
+    //появляется всплывающее сообщение "Ваш регион Москва?" - нажимаем, что да
     public PageTinkoffMobileTariffs defaultRegion() {
         logger.info("Устанавливаем дефолтны регион Москва и область");
         WebElement regionMoscow = webDriver.findElement(defaultRegion);
@@ -37,6 +39,7 @@ public class PageTinkoffMobileTariffs {
         return this;
     }
 
+    //метод возвращает текущий регион
     public String getRegion() {
         logger.info("Определение региона");
         WebElement webElement = webDriver.findElement(region);
@@ -44,6 +47,8 @@ public class PageTinkoffMobileTariffs {
         logger.info("Текущий регион" + actual);
         return actual;
     }
+
+    // выполняем нажатие на текущий регион
     public PageTinkoffMobileTariffs clickRegion (){
         logger.info("Поиск элемента регион");
         WebElement webElement = webDriver.findElement(region);
@@ -52,6 +57,7 @@ public class PageTinkoffMobileTariffs {
         return this;
     }
 
+    //выбираем регион
     public void setRegion(String region) throws InterruptedException {
         logger.info("Поиск наличия региона - " + region);
         WebElement webElement = webDriver.findElement(By.xpath("//div[text()=\"" + region + "\"]"));
@@ -60,12 +66,14 @@ public class PageTinkoffMobileTariffs {
         Thread.sleep(5000);
     }
 
+    //метод обновляет страницу
     public PageTinkoffMobileTariffs refreshPage() throws InterruptedException {
         logger.info("Обновляем страницу");
         webDriver.navigate().refresh();
         Thread.sleep(5000);
         return this;
     }
+    //метод возвращает стоимость пакета услуг
     public String getPrice() {
         logger.info("Поиск стоимости пакета");
         WebElement webElement = webDriver.findElement(defaultPrice);
@@ -73,6 +81,24 @@ public class PageTinkoffMobileTariffs {
         return price;
     }
 
+    //метод для возвращения значения выбран чекбокс или не выбран
+    public boolean valueCheckBox (String nameCheckBox) {
+        logger.info("Поиск чекбокса...");
+        WebElement webElement = webDriver.findElement(By.xpath("//span[contains(text(),'" + nameCheckBox + "')]//ancestor::label[contains(@class,'ui-checkbox  ui-checkbox_checked') or contains(@class,'ui-checkbox')]"));
+        String checkBox = webElement.getAttribute("class");
+
+        String stroka = "ui-checkbox  ui-checkbox_checked";
+
+        if (checkBox.equals(stroka)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+
+    //метод выполняет нажатие на чекбокс
     public void clickCheckBox(String locator) {
         logger.info("Поиск чекбокса...");
         WebElement webElement = webDriver.findElement(By.xpath(locator));
@@ -81,6 +107,17 @@ public class PageTinkoffMobileTariffs {
         logger.info("Выполнили нажатие");
     }
 
+    //метод возвращает значение селекта
+    public void getSelect (String locator) {
+        logger.info("Поиск селекта...");
+        WebElement select = webDriver.findElement(By.xpath(locator));
+        String actualText = select.getText();
+        logger.info("Текущее значение селекта " + actualText);
+
+    }
+
+
+    //выбираем значение выпадающего списка
     public void setSelect (String tarif, String locator, String selectItem){
         logger.info("Поиск селекта...");
         WebElement select = webDriver.findElement(By.xpath(locator));

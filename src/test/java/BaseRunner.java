@@ -30,7 +30,6 @@ public class BaseRunner {
         String os = System.getProperty("os.name").toLowerCase();
         logger.info("Текущая ОС: " + os);
             System.setProperty("webdriver.chrome.driver", "src/main/resources/webdriver/win/chromedriver.exe");
-
     }
 
     @After
