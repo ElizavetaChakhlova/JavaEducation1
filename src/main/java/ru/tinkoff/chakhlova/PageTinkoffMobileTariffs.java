@@ -11,25 +11,12 @@ import java.util.List;
 
 public class PageTinkoffMobileTariffs {
     private WebDriver webDriver;
-    private Logger logger = Logger.getLogger(PageTinkoffMobile.class);
+    private Logger logger = Logger.getLogger(PageTinkoffMobileTariffs.class);
     private static final String URL = "https://www.tinkoff.ru/mobile-operator/tariffs/";
     private static final By region = By.xpath("//div[contains(@class,\"MvnoRegionConfirmation\")][2]");
     private static final By defaultRegion = By.xpath("//span[text()=\"Да\"]");
     private static final By defaultPrice = By.xpath("(//h3[contains(@class,\"obileOperatorFormFieldTitle__title\")])[1]");
     private static final By selectInternet = By.xpath("(//div[@class=\"ui-dropdown-field-list\"])[1]/..");
-    private static final By modem = By.xpath("(//div[@class=\"ui-form__row ui-form__row_checkbox ui-form__row_mobile-operator-checkbox\"])[1]");
-    private static final By sms = By.xpath("(//div[@class=\"ui-checkbox__check\"])[1]");
-
-
-
-
-    private static final By FORM = By.xpath("//div[@id=\"form-application\"]");
-    private static final By BTN_NEXT = By.xpath("//button[string()='Далее']");
-    private static final By inputCountry = By.xpath("//div[@data-qa-file=\"FormFieldWrapper\" and contains(string(),'стран')]");
-    private static final By inputFIOError = By.xpath("//div[@data-qa-file=\"FormFieldWrapper\" and contains(string(),'Фамилия')]//div[@data-qa-file=\"UIFormRowError\"]");
-    private static final By inputNumberError = By.xpath("//div[@data-qa-file=\"FormFieldWrapper\" and contains(string(),'Контактный телефон')]//div[@data-qa-file=\"UIFormRowError\"]");
-    private static final By selectCityzenship = By.xpath("//div[@data-qa-file=\"FormFieldWrapper\" and contains(string(),'Гражданство') and .//*[@data-qa-file=\"UIDropdownList\"]]");
-    private static final By selectCityzenshipItem = By.xpath("//div[@data-qa-file=\"FormFieldWrapper\" and contains(string(),'Гражданство') and .//*[@data-qa-file=\"UIDropdownList\"]]//div[@class=\"ui-dropdown-field-list ui-dropdown-field-list__opened\"]/div[contains(@class,'ui-dropdown-field-list__item')]");
 
 
     public PageTinkoffMobileTariffs(WebDriver webDriver) {
